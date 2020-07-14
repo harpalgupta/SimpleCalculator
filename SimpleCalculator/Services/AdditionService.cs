@@ -9,7 +9,15 @@ namespace SimpleCalculator.Services
     {
         public int Add(int firstNumber, int secondNumber)
         {
-            throw new NotImplementedException();
+            return firstNumber + secondNumber;
         }
+
+        public string SomeOtherMethod()
+        {
+            return "SomeOtherMethod";
+                
+         }
     }
+
+
 }
