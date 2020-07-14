@@ -36,6 +36,20 @@ namespace SimpleCalculatorTests
             Assert.That(result, Is.EqualTo(expectedResult));
         }
 
+        [Test]
+        public void GivenOnePlusOne_WhenAddCalled_ThenExpectTwoToBeReturned()
+        {
+            //Arrange
+            var expectedResult = 2;
+            //Act
+            //get result
+            var result = _additionService.Add(1, 1);
+
+            //Assert
+
+            Assert.That(result, Is.EqualTo(expectedResult));
+        }
+
 
 
 

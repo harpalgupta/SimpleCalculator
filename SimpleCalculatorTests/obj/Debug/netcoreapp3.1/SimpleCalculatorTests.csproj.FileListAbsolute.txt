@@ -92,8 +92,10 @@ C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\bin\Debug\netcor
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.csprojAssemblyReference.cache
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.AssemblyInfo.cs
-C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.csproj.CopyComplete
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.dll
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.pdb
 C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.genruntimeconfig.cache
+C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\bin\Debug\netcoreapp3.1\FakeItEasy.dll
+C:\Users\HP\source\repos\SimpleCalculator\SimpleCalculatorTests\obj\Debug\netcoreapp3.1\SimpleCalculatorTests.csproj.CoreCompileInputs.cache
