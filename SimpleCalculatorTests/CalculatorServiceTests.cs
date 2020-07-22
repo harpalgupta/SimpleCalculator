@@ -30,6 +30,8 @@ namespace SimpleCalculatorTests
             //Arrange
             var firstNumber = 0;
             var secondNumber = 1;
+            var expectedAddResult = 9999;
+            A.CallTo(() => fakeAdditionService.Add(firstNumber,secondNumber)).Returns(expectedAddResult);
 
             //Act
             var result = _calculatorService.Calculate('+', firstNumber, secondNumber);
@@ -37,6 +39,7 @@ namespace SimpleCalculatorTests
             //Assert
             //check there is a call to the addition service add method with correct first number and second number
             A.CallTo(() => fakeAdditionService.Add(firstNumber, secondNumber)).MustHaveHappenedOnceExactly();
+            Assert.That(result,Is.EqualTo(expectedAddResult));
 
         }
 
@@ -55,5 +58,22 @@ namespace SimpleCalculatorTests
             A.CallTo(() => fakeAdditionService.Add(A<int>.Ignored, A<int>.Ignored)).MustNotHaveHappened();
 
         }
+
+        [Test]
+        public void GivenAMultiplicationLine_WithTwoTimesTwo_ExpectResultOfFour()
+        {
+            //Arrange
+            var firstnum = 2;
+            var secondnum = 2;
+
+            //Act
+            var result = _calculatorService.Calculate('*', firstnum, secondnum);
+
+            //Assert
+            A.CallTo(() => fakeMultiplicationService.Multiply(A<int>.Ignored, A<int>.Ignored)).MustHaveHappened();
+
+
+        }
+
     }
 }

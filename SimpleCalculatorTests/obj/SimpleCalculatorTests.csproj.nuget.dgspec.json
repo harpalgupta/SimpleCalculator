@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj": {}
+    "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj": {
+    "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj",
+        "projectUniqueName": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj",
         "projectName": "SimpleCalculatorTests",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculatorTests\\obj\\",
+        "projectPath": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculatorTests\\SimpleCalculatorTests.csproj",
+        "packagesPath": "C:\\Users\\Harpal.gupta\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculatorTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Harpal.gupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,13 +25,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sourcebioscience.pkgs.visualstudio.com/_packaging/Clients/nuget/v3/index.json": {},
+          "https://sourcebioscience.pkgs.visualstudio.com/_packaging/SBSFramework/nuget/v3/index.json": {},
+          "https://sourcebioscience.pkgs.visualstudio.com/_packaging/Sbs/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj"
+              "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {
+                "projectPath": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj"
               }
             }
           }
@@ -77,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {
+    "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+        "projectUniqueName": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
         "projectName": "SimpleCalculator",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\SimpleCalculator\\SimpleCalculator\\obj\\",
+        "projectPath": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculator\\SimpleCalculator.csproj",
+        "packagesPath": "C:\\Users\\Harpal.gupta\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\UnitTestDemo\\SimpleCalculator\\SimpleCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Harpal.gupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,7 +105,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sourcebioscience.pkgs.visualstudio.com/_packaging/Clients/nuget/v3/index.json": {},
+          "https://sourcebioscience.pkgs.visualstudio.com/_packaging/SBSFramework/nuget/v3/index.json": {},
+          "https://sourcebioscience.pkgs.visualstudio.com/_packaging/Sbs/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -132,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

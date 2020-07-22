@@ -26,7 +26,7 @@ namespace SimpleCalculatorTests
             var result = _multiplicationService.Multiply(0, 1);
 
             //Assert
-            Assert.That(result, Is.EqualTo(0));
+            Assert.That(result, Is.EqualTo(expectedResult));
 
         }
 
@@ -41,6 +41,20 @@ namespace SimpleCalculatorTests
 
             //Assert
             Assert.That(result, Is.EqualTo(expectedResult));
+            Assert.That(result.GetType(),Is.EqualTo(typeof(int)));
+
+        }
+
+        [Test]
+        public void GivenANegativeInput_WhenMultiplyIsCalled_ThenExpectThrow()
+        {
+            //Arrange
+            var negativeInput1 = -30;
+
+            //Act Assert
+
+            Assert.Throws<ArgumentException>(()=>_multiplicationService.Multiply(negativeInput1, 12));
+
 
         }
     }

@@ -22,6 +22,10 @@ namespace SimpleCalculator.Services
                 return additionService.Add(firstNumber, secondNumber);
 
             }
+            else if( sign=='*')
+            {
+                return multiplicationService.Multiply(firstNumber, secondNumber);
+            }
             throw new ArgumentException("Calculation Method Not Implemented");
         }
     }
